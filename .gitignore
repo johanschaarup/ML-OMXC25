@@ -1,0 +1,42 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Environment directories
+venv/
+env/
+trading_env/
+
+# macOS system files
+.DS_Store
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Data files
+data/raw/
+data/processed/
+notebooks/data/raw/
+notebooks/data/processed/
+*.csv
+*.xlsx
+*.xls
+*.db
+*.sqlite
+
+# Model files
+*.h5
+*.pkl
+*.joblib
